@@ -20,10 +20,6 @@ nome_file = input("Inserisci il nome da dare alla cartella zippata indicando l' 
 zipped_file_path = 'C:\\Users\\'+User+'\\Desktop\\'+nome_file
 zip_directory(percorso_cartella, zipped_file_path)
 
-#Hostname = '5.182.33.178'
-#Username = 'bonamattia'
-#Password = 'ciao123'
-
 Hostname = input("Inserire l'ip numerico o simbolico del server a cui si vuole inviare il backup: ")
 Username = input("Inserire lo username del server a cui inviare il file (Esempio: root): ")
 Password = input("Password dell'utente inserito: ")
